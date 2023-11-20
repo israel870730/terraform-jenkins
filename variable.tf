@@ -3,7 +3,6 @@ variable "aws_region" {
   default     = "us-east-1"
 }
 
-
 variable "instance_type" {
   description = "instance type for ec2"
   default     =  "t2.micro"
@@ -11,7 +10,7 @@ variable "instance_type" {
 
 variable "tag_name" {
   description = "Tag Name of for Ec2 instance"
-  default     = "my-ec2-instance"
+  default     = "ec2-from-jenkins"
 }
 
 variable "ami_id" {
